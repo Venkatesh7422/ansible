@@ -1,0 +1,11 @@
+- name: variables intro
+  hosts: localhost
+  vars:
+    hero: "prabhas"
+    movie: "salaar"
+    year: "2024"
+  tasks: 
+  - name: checking variables
+    ansible.builtin.debug:
+      msg: "This {{hero}} acted {{movie}} released in {{year}}"
+
