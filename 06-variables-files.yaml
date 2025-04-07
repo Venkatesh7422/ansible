@@ -6,6 +6,6 @@
   tasks: 
   - name: print variables from files
     ansible.builtin.debug:
-       this {{hero}} acted {{movie}} releaesed in {{year}}
+       "this {{hero}} acted {{movie}} releaesed in {{year}}"
 
 
