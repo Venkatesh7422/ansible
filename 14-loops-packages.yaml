@@ -1,5 +1,6 @@
 - name: installing packages
   hosts: localhost
+  become: yes
   tasks:
   - name: install packages in order
     ansible.builtin.package:
