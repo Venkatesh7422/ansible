@@ -7,7 +7,7 @@
       hero: "prabhas"
       movie: "salaar"
       year: "2024"
-    ansible.biltin.debug:
+    ansible.builtin.debug:
       msg: "this{{hero}} acted {{movie}} releaesed in {{year}}"
-      
+
 
