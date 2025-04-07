@@ -1,6 +1,6 @@
-- name: variables from inventory
+- name: variables from play level
   hosts: localhost
   tasks:
-  - name: checking from inventory
+  - name: check variables
     ansible.builtin.debug:
       msg: "this {{hero}} acted {{movie}} releaesed in {{year}}"
