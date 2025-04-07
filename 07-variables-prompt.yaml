@@ -11,5 +11,5 @@
   tasks:
     - name: print variables from prompt
       ansible.builtin.debug:
-        msg: "this{{hero}} acted {{movie}} releaesed in {{year}}"
+        msg: "username is: {{USERNAME}}, Password is: {{PASSWORD}}"
 
