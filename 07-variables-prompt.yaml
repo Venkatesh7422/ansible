@@ -1,6 +1,6 @@
 #PROMPT level variables
 - name: variables from prompt
-  hosts: local host
+  hosts: localhost
   vars_prompt:
   - name: USERNAME
     prompt: enter ur username
