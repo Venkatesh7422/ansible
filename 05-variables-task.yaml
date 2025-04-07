@@ -1,0 +1,13 @@
+#TASK level variables
+- name: Task level variables
+  hosts: localhost
+  tasks:
+  - name: checking variable at task level
+    vars:
+      hero: "prabhas"
+      movie: "salaar"
+      year: "2024"
+    ansible.biltin.debug:
+      msg: "this{{hero}} acted {{movie}} releaesed in {{year}}"
+      
+

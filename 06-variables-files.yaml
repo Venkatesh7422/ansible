@@ -1,0 +1,11 @@
+#FILES
+- name: variables from files
+  hosts: local host
+  vars_files:
+    variables.yaml
+  tasks: 
+  - name: print variables from files
+    ansible.builtin.debug:
+      msg: "this{{hero}} acted {{movie}} releaesed in {{year}}"
+
+

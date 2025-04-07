@@ -1,0 +1,6 @@
+- name: variables from inventory
+  hosts: local host
+  tasks:
+  - name: checking from inventory
+    ansible.builtin.debug:
+      msg: "this{{hero}} acted {{movie}} releaesed in {{year}}"

@@ -1,0 +1,15 @@
+#PROMPT level variables
+- name: variables from prompt
+  hosts: local host
+  vars_prompt:
+  - name: USERNAME
+    prompt: enter ur username
+    private: false
+  - name: PASSWORD
+    prompt: muskoni password enter cheyyara
+    private: false
+  tasks:
+    - name: print variables from prompt
+      ansible.builtin.debug:
+        msg: "this{{hero}} acted {{movie}} releaesed in {{year}}"
+

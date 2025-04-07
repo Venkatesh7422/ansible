@@ -1,3 +1,4 @@
+#PLAY level Variables
 - name: variables intro
   hosts: localhost
   vars:
