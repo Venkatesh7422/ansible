@@ -3,4 +3,4 @@
   tasks:
   - name: checking from inventory
     ansible.builtin.debug:
-      msg: "this{{hero}} acted {{movie}} releaesed in {{year}}"
+      msg: "this {{hero}} acted {{movie}} releaesed in {{year}}"
